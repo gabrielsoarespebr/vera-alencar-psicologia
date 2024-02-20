@@ -1,0 +1,64 @@
+<section
+  [style.backgroundColor]="colorBg"
+  class="d-flex p-5 justify-content-between align-items-center gap-5"
+>
+  <div class="w-100">
+    <p class="text-center my-5 display-5">Como posso ajudar você hoje?</p>
+    <ul class="list-unstyled d-flex justify-content-between flex-wrap gap-5">
+      <li>
+        <app-flip-card
+          serviceTitle="Terapia individual"
+          serviceIcon="person"
+          serviceImage="therapyIndividual.jpg"
+          [colorBgCard]="colorBgCard"
+          [colorTxt]="colorBg"
+        ></app-flip-card>
+      </li>
+      <li>
+        <app-flip-card
+          serviceTitle="Terapia de casal"
+          serviceIcon="group"
+          serviceImage="marriageCounseling.png"
+          [colorBgCard]="colorBgCard"
+          [colorTxt]="colorBg"
+        ></app-flip-card>
+      </li>
+      <li>
+        <app-flip-card
+          serviceTitle="Terapia familiar"
+          serviceIcon="diversity_3"
+          serviceImage="therapyFamily.png"
+          [colorBgCard]="colorBgCard"
+          [colorTxt]="colorBg"
+        ></app-flip-card>
+      </li>
+      <li>
+        <app-flip-card
+          serviceTitle="Teste vocacional"
+          serviceIcon="business_center"
+          serviceImage="careerAptitudeTest.jpg"
+          [colorBgCard]="colorBgCard"
+          [colorTxt]="colorBg"
+        ></app-flip-card>
+      </li>
+      <li>
+        <app-flip-card
+          serviceTitle="Mentoria"
+          serviceIcon="trending_up"
+          serviceImage="mentoring.jpg"
+          [colorBgCard]="colorBgCard"
+          [colorTxt]="colorBg"
+        ></app-flip-card>
+      </li>
+      <li>
+        <app-flip-card
+          serviceTitle="Palestra"
+          serviceIcon="co_present"
+          serviceImage="lecture.jpg"
+          [colorBgCard]="colorBgCard"
+          [colorTxt]="colorBg"
+        ></app-flip-card>
+      </li>
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,17 @@
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div
+      [ngStyle]="{ 'background-color': colorBgCard, color: colorTxt }"
+      class="flip-card-front"
+    >
+    <mat-icon aria-hidden="false" aria-label="Example home icon" [fontIcon]="serviceIcon"></mat-icon>
+      <p>
+        {{ serviceTitle }}
+      </p>
+    </div>
+
+    <div class="flip-card-back">
+      <img class="cardImg" src="/assets/images/{{ serviceImage }}" [alt]="serviceTitle" />
+    </div>
+  </div>
+</div>
