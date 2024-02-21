@@ -11,6 +11,7 @@ import { DividerComponent } from './components/divider/divider.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FlipCardComponent } from './components/flip-card/flip-card.component';
 import {MatIconModule} from '@angular/material/icon';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {MatIconModule} from '@angular/material/icon';
     AboutTheAuthorComponent,
     DividerComponent,
     HeaderComponent,
-    FlipCardComponent
+    FlipCardComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
