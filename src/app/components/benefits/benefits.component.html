@@ -1,0 +1,50 @@
+<section [style.backgroundColor]="colorBg" class="p-5">
+  <p class="text-center text-white my-5 display-5">
+    Quais os benefícios da terapia online?
+  </p>
+  <div class="d-flex justify-content-between gap-5">
+    <div class="d-flex flex-column justify-content-around">
+      <blockquote [style.color]="colorContent">
+        <p class="text-reset">
+          Os fenômenos humanos são biológicos em suas raízes, sociais em seus
+          fins e mentais em seus meios.
+        </p>
+        <cite class="text-reset">- Jean Piaget</cite>
+      </blockquote>
+      <div [style.color]="colorContent">
+        <p class="text-reset">
+          Cada ser humano é formado por instinto, razão e emoção. Para uma vida
+          plena, é necessário que essa equação esteja devidamente equilibrada.
+        </p>
+        <p class="text-reset">
+          Nesse contexto, a terapia se mostra essencial na
+          <span class="text-reset fw-bold">promoção do autoconhecimento</span>,
+          <span class="text-reset fw-bold">melhoria da qualidade de vida</span>,
+          <span class="text-reset fw-bold">busca por um propósito</span> e
+          <span class="text-reset fw-bold"
+            >estabilidade nos relacionamentos</span
+          >.
+        </p>
+        <p class="text-reset">
+          Tais benefícios se intensificam na terapia online, considerando a
+          <span class="text-reset fw-bold">praticidade</span> e
+          <span class="text-reset fw-bold">segurança</span> de realizar um
+          tratamento psicológico no
+          <span class="text-reset fw-bold">conforto</span> da sua casa.
+        </p>
+      </div>
+      <div class="text-center">
+        <a
+          [ngStyle]="{ 'background-color': colorContent, color: colorBg }"
+          class="text-decoration-none btn fs-4"
+          href="about-the-author"
+          >INICIE SUA TERAPIA ONLINE</a
+        >
+      </div>
+    </div>
+    <img
+      src="./assets/images/girlWateringTree.png"
+      alt="Menina regando árvore"
+    />
+  </div>
+</section>

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+img {
+  width: 40vw;
+  height: fit-content;
+  aspect-ratio: 1/1;
+
+  border-radius: 2rem;
+}
+
+blockquote{
+  font-family: "Grape Nuts", cursive;
+  & p{
+    font-size: 200%;
+    line-height: 100%;
+  }
+  & cite{
+    font-size: 140%;
+  }
+}
+
+a:hover{
+  opacity: 90%;
+}
