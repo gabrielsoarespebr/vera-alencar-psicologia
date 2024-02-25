@@ -10,3 +10,7 @@ img {
 
   border-radius: 2rem;
 }
+
+a:hover{
+  opacity: 90%;
+}
