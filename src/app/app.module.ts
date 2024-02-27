@@ -13,6 +13,7 @@ import { FlipCardComponent } from './components/flip-card/flip-card.component';
 import {MatIconModule} from '@angular/material/icon';
 import { AboutComponent } from './components/about/about.component';
 import { BenefitsComponent } from './components/benefits/benefits.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BenefitsComponent } from './components/benefits/benefits.component';
     HeaderComponent,
     FlipCardComponent,
     AboutComponent,
-    BenefitsComponent
+    BenefitsComponent,
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule,
