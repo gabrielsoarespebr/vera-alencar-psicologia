@@ -1,0 +1,24 @@
+#returnHomeBtn {
+  position: fixed;
+
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+
+  bottom: 2rem;
+  left: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  opacity: .6;
+
+  transition: 0.3s ease-in-out;
+
+  &:hover{
+    opacity: 1;
+  }
+}

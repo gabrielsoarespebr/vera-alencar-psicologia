@@ -1,25 +1,103 @@
-<app-header [colorBg]="colorGreenSoft"></app-header>
-<app-presentation [colorBg]="colorGreenSoft" [colorBgBtn]="colorGreenDark"></app-presentation>
-<app-divider [palette]="paletteGreenList" [reverse]="true"></app-divider>
-<app-services [colorBg]="colorGreenDark" [colorBgCard]="colorGreenSoft"></app-services>
-<app-divider [palette]="paletteGreenList" [reverse]="true"></app-divider>
-<app-about [colorBg]="colorGreenSoft"></app-about>
-<app-divider [palette]="paletteGreenList" [reverse]="true"></app-divider>
-<app-benefits [colorBg]="colorGreenDark" [colorContent]="colorGreenSoft"></app-benefits>
-<app-divider [palette]="paletteGreenList" [reverse]="true"></app-divider>
-<app-testimonials [colorBg]="colorGreenSoft" [colorBgCard]="colorGreenDark"></app-testimonials>
-<app-divider [palette]="paletteGreenList" [reverse]="true"></app-divider>
-<app-books [colorBg]="colorGreenDark" [colorBgBtn]="colorGreenSoft"></app-books>
-<app-divider [palette]="paletteGreenList" [reverse]="true"></app-divider>
+<div class="position-relative">
+  <app-header id="header" [colorBg]="colorGreenSoft"></app-header>
+  <app-presentation
+    [colorBg]="colorGreenSoft"
+    [colorBgBtn]="colorGreenDark"
+  ></app-presentation>
+  <app-divider [palette]="paletteGreenList" [reverse]="true"></app-divider>
+  <app-services
+    id="services"
+    [colorBg]="colorGreenDark"
+    [colorBgCard]="colorGreenSoft"
+  ></app-services>
+  <app-divider [palette]="paletteGreenList" [reverse]="true"></app-divider>
+  <app-about id="about" [colorBg]="colorGreenSoft"></app-about>
+  <app-divider [palette]="paletteGreenList" [reverse]="true"></app-divider>
+  <app-benefits
+    id="benefits"
+    [colorBg]="colorGreenDark"
+    [colorContent]="colorGreenSoft"
+  ></app-benefits>
+  <app-divider [palette]="paletteGreenList" [reverse]="true"></app-divider>
+  <app-testimonials
+    id="testimonials"
+    [colorBg]="colorGreenSoft"
+    [colorBgCard]="colorGreenDark"
+  ></app-testimonials>
+  <app-divider [palette]="paletteGreenList" [reverse]="true"></app-divider>
+  <app-books
+    id="books"
+    [colorBg]="colorGreenDark"
+    [colorBgBtn]="colorGreenSoft"
+  ></app-books>
+  <app-divider [palette]="paletteGreenList" [reverse]="true"></app-divider>
 
+  <a href="#header" class="text-reset">
+    <mat-icon
+      aria-hidden="false"
+      aria-label="Plus icon"
+      fontIcon="north"
+      id="returnHomeBtn"
+      [style.backgroundColor]="colorGreenPastel"
+    ></mat-icon>
+  </a>
+</div>
 <ul>
   <p>Referências:</p>
-  <li><a href="https://dribbble.com/shots/17978764-Therapist-WordPress-Theme" target="_blank">Cores</a></li>
-  <li><a href="http://www.gabrielachavespsicologa.com.br/?gad_source=1&gclid=CjwKCAiAuNGuBhAkEiwAGId4atKrsDHkY9UKIovPlkywCy_9RuM0GVH0BmJFUo2p0AcUX6mvJmiscxoCWuMQAvD_BwE" target="_blank">Benefícios e FAQ</a></li>
-  <li><a href="https://www.behance.net/gallery/190789839/PSYCHOLOGY-HEALTH-WEBSITE-DESIGN?tracking_source=search_projects|psychology+website&l=6" target="_blank">Estrutura</a></li>
-  <li><a href="https://www.marinasaito.com/?gad_source=1&gclid=CjwKCAiA_tuuBhAUEiwAvxkgToShMaI1p0XE2KkX_52ZeH6AQS0OIe5Q_GgEdBWlnrw8T9rlHvfvNBoCCIsQAvD_BwE" target="_blank">Estrutura 2</a></li>
-  <li><a href="http://priscilarolim.com/terapia-individual-e-de-casais/?gad_source=1&gclid=CjwKCAiA8sauBhB3EiwAruTRJn4UsXGnCDxMwkM3xio4GzE9YYNnRRQc-YENMqfasszbKaf6h-N65xoC9TUQAvD_BwE" target="_blank">Tratamentos</a></li>
-  <li><a href="https://www.raissacorbal.com.br/?gad_source=1&gclid=CjwKCAiA8sauBhB3EiwAruTRJr06hep9eyuzQ-QxsMCAlTTwDDFIm0YotWHsSHJRIfePFrm2Ks0evhoC-9oQAvD_BwE" target="_blank">Depoimentos</a></li>
-  <li><a href="https://www.eduardapsi.com/?gad_source=1&gclid=CjwKCAiA_tuuBhAUEiwAvxkgTp_QjRyfBOIpjnHwVpQpy80lafuAk0Xh7P5DdnjJxgdsHXYIEUE6EhoC99EQAvD_BwE" target="_blank">Depoimentos 2</a></li>
-  <li><a href="https://www.everllindiana.com/?gad_source=1&gclid=CjwKCAiA_tuuBhAUEiwAvxkgTq3stxqu3Sjws5k2jlCTC7ZIoJfGxa6ZbLyzKILakXCIAGrdCty8xBoC_isQAvD_BwE" target="_blank">Depoimentos 3</a></li>
+  <li>
+    <a
+      href="https://dribbble.com/shots/17978764-Therapist-WordPress-Theme"
+      target="_blank"
+      >Cores</a
+    >
+  </li>
+  <li>
+    <a
+      href="http://www.gabrielachavespsicologa.com.br/?gad_source=1&gclid=CjwKCAiAuNGuBhAkEiwAGId4atKrsDHkY9UKIovPlkywCy_9RuM0GVH0BmJFUo2p0AcUX6mvJmiscxoCWuMQAvD_BwE"
+      target="_blank"
+      >Benefícios e FAQ</a
+    >
+  </li>
+  <li>
+    <a
+      href="https://www.behance.net/gallery/190789839/PSYCHOLOGY-HEALTH-WEBSITE-DESIGN?tracking_source=search_projects|psychology+website&l=6"
+      target="_blank"
+      >Estrutura</a
+    >
+  </li>
+  <li>
+    <a
+      href="https://www.marinasaito.com/?gad_source=1&gclid=CjwKCAiA_tuuBhAUEiwAvxkgToShMaI1p0XE2KkX_52ZeH6AQS0OIe5Q_GgEdBWlnrw8T9rlHvfvNBoCCIsQAvD_BwE"
+      target="_blank"
+      >Estrutura 2</a
+    >
+  </li>
+  <li>
+    <a
+      href="http://priscilarolim.com/terapia-individual-e-de-casais/?gad_source=1&gclid=CjwKCAiA8sauBhB3EiwAruTRJn4UsXGnCDxMwkM3xio4GzE9YYNnRRQc-YENMqfasszbKaf6h-N65xoC9TUQAvD_BwE"
+      target="_blank"
+      >Tratamentos</a
+    >
+  </li>
+  <li>
+    <a
+      href="https://www.raissacorbal.com.br/?gad_source=1&gclid=CjwKCAiA8sauBhB3EiwAruTRJr06hep9eyuzQ-QxsMCAlTTwDDFIm0YotWHsSHJRIfePFrm2Ks0evhoC-9oQAvD_BwE"
+      target="_blank"
+      >Depoimentos</a
+    >
+  </li>
+  <li>
+    <a
+      href="https://www.eduardapsi.com/?gad_source=1&gclid=CjwKCAiA_tuuBhAUEiwAvxkgTp_QjRyfBOIpjnHwVpQpy80lafuAk0Xh7P5DdnjJxgdsHXYIEUE6EhoC99EQAvD_BwE"
+      target="_blank"
+      >Depoimentos 2</a
+    >
+  </li>
+  <li>
+    <a
+      href="https://www.everllindiana.com/?gad_source=1&gclid=CjwKCAiA_tuuBhAUEiwAvxkgTq3stxqu3Sjws5k2jlCTC7ZIoJfGxa6ZbLyzKILakXCIAGrdCty8xBoC_isQAvD_BwE"
+      target="_blank"
+      >Depoimentos 3</a
+    >
+  </li>
 </ul>
