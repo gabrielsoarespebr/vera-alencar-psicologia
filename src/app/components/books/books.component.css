@@ -1,0 +1,19 @@
+li{
+  transition: 0.5s ease-in-out;
+}
+
+.highlighted{
+  transform: scale(1.2);
+}
+
+.backgrounded{
+  transform: scale(0.8);
+}
+
+img{
+  width: 15vw;
+}
+
+a:hover{
+  opacity: 90%;
+}

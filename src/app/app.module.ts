@@ -14,6 +14,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { AboutComponent } from './components/about/about.component';
 import { BenefitsComponent } from './components/benefits/benefits.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { BooksComponent } from './components/books/books.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
     FlipCardComponent,
     AboutComponent,
     BenefitsComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    BooksComponent
   ],
   imports: [
     BrowserModule,

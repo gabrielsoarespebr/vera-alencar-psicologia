@@ -1,0 +1,30 @@
+<section [style.backgroundColor]="colorBg" class="p-5">
+  <p class="text-center text-white my-5 display-5">Leia esse livro para...</p>
+  <ul class="d-flex justify-content-between gap-5 list-unstyled">
+    <li *ngFor="let book of bookList;index as i" class="text-center" (mouseenter)="mouseEnter(i)" (mouseleave)="mouseLeave()" [ngClass]="book.class">
+      <p class="text-white fw-bold">{{ book.goal.toUpperCase() }}</p>
+      <figure>
+        <img src="./assets/images/{{ book.image }}" alt="{{ book.title }}" />
+        <figcaption>
+          <p class="text-white p-0 pt-3">{{ book.title }}</p>
+          <p class="text-white p-0">{{ book.author }}</p>
+        </figcaption>
+      </figure>
+      <a
+        [ngStyle]="{ 'background-color': colorBgBtn, color: colorBg }"
+        class="btn p-2 d-flex justify-content-center alig-items-center"
+        href="https://www.google.com/search?client=opera-gx&hs=EYR&sca_esv=bc4b5e46aeab13ae&sxsrf=ACQVn085hXA4VARVPFNAI_tqekteCPknqQ:1709059559991&q={{
+          book.title
+        }}&tbm=shop&source=lnms"
+        target="_blank"
+      >
+        <mat-icon
+          aria-hidden="false"
+          aria-label="Plus icon"
+          fontIcon="add"
+        ></mat-icon>
+        <p class="m-0">INFORMAÇÕES</p>
+      </a>
+    </li>
+  </ul>
+</section>
