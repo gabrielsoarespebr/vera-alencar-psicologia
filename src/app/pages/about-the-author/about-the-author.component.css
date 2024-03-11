@@ -1,0 +1,33 @@
+section {
+  width: 100%;
+  height: max-content;
+  background-color: #d0f0ef;
+}
+
+#logo{
+  width: 18%;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+a[href="home"] {
+  background-color: #2b7570;
+
+  &:hover {
+    background-color: #2b7570;
+    opacity: 90% !important;
+  }
+}
+
+#socialMedia img{
+  width: 4rem;
+
+  transition: 0.3s ease-in-out;
+
+  &:hover{
+    opacity: .8;
+  }
+}
