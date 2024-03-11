@@ -1,0 +1,50 @@
+.socialMedia {
+  width: 3rem;
+  height: 3rem;
+
+  transition: 0.3s ease-in-out;
+
+  &:hover{
+    opacity: .8;
+  }
+}
+
+#iconWhatsappBackground{
+  position: fixed;
+
+  width: 5rem;
+  height: 5rem;
+
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.socialMedia[alt="WhatsApp"]{
+  position: fixed;
+
+  width: 5rem;
+  height: 5rem;
+
+  bottom: 2rem;
+  right: 2rem;
+
+  opacity: .6;
+
+  z-index: 1;
+
+  &:hover{
+    opacity: 1;
+  }
+}
+
+.socialMedia[alt="WhatsApp"][endofpage=true]{
+  width: 3rem;
+  height: 3rem;
+
+  bottom: 8.5rem;
+  right: 2rem;
+
+  opacity: 1;
+
+  filter: none;
+}

@@ -1,0 +1,21 @@
+<footer [style.backgroundColor]="colorBg" class="p-5">
+  <div class="d-flex justify-content-between">
+    <div>
+      <p class="fw-bold">Horário de atendimento</p>
+      <p>Segunda à sexta, das 09:00 às 18:00</p>
+    </div>
+    <div class="col-4">
+      <p class="fw-bold">Vera Alencar</p>
+      <p>Psicóloga - CRP 99/99999</p>
+      <ul class="list-unstyled d-flex justify-content-around">
+        <li *ngFor="let socialMedia of socialMediaList">
+          <a href="about-the-author">
+            <img class="socialMedia" [src]="socialMedia.imgUrl" [alt]="socialMedia.title" [attr.endOfPage]="endOfPage">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <img *ngIf="!endOfPage" id="iconWhatsappBackground" src="/assets/images/iconWhatsappBackground.png" alt="WhatsApp icon background">
+  <p class="text-center mt-5"><a href="https://www.linkedin.com/in/gabrielsoarespebr/" target="_blank" class="text-reset text-decoration-none">Presença online desenvolvida por Gabriel Soares</a></p>
+</footer>

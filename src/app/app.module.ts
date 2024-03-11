@@ -15,6 +15,7 @@ import { AboutComponent } from './components/about/about.component';
 import { BenefitsComponent } from './components/benefits/benefits.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { BooksComponent } from './components/books/books.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { BooksComponent } from './components/books/books.component';
     AboutComponent,
     BenefitsComponent,
     TestimonialsComponent,
-    BooksComponent
+    BooksComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
