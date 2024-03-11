@@ -86,7 +86,7 @@ export class TestimonialsComponent {
         city: "Santa Inês",
         state: "MA"
       },
-      testimonial: "Ótima profissional! Tem me ajudado a superar problemas com ansiedade e depressão. Cheguei perdida, sem propósito, sem saber lidar com muitas questões, e Vera está me ajudando a me direcionar para o caminho certo, tanto na vida pessoal como na profissional."
+      testimonial: "Ótima profissional! Tem me ajudado a superar problemas com ansiedade e depressão. Cheguei perdida, sem propósito, sem saber lidar com muitas questões, mas Vera me direcionou para o caminho certo, tanto na vida pessoal como na profissional."
     }
   ]
 
