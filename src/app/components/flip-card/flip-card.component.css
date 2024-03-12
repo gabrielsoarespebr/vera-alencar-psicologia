@@ -55,3 +55,16 @@
   background-color: transparent;
   transform: rotateY(180deg);
 }
+
+@media (max-width:576px){
+  .flip-card {
+    width: 38vw;
+    height: 38vw;
+  }
+
+  .flip-card-front .mat-icon{
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+  }
+}

@@ -6,6 +6,16 @@ h1{
   font-size: 3rem;
 }
 
+@media (max-width:576px){
+  img{
+    width: 3rem;
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+}
+
 .navbar-toggler{
   background-color: #2b7570;
 
