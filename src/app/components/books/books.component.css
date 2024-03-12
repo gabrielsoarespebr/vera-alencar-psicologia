@@ -14,6 +14,10 @@ img{
   width: 15vw;
 }
 
-a:hover{
-  opacity: 90%;
+a{
+  transition: 0.3s ease-in-out;
+
+  &:hover{
+    opacity: 80%;
+  }
 }

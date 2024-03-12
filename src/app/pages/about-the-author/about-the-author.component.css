@@ -13,21 +13,22 @@ h2 {
   line-height: 2.5rem;
 }
 
+a{
+  transition: 0.3s ease-in-out;
+
+  &:hover{
+    opacity: 80%;
+  }
+}
+
 a[href="home"] {
   background-color: #2b7570;
 
   &:hover {
     background-color: #2b7570;
-    opacity: 90% !important;
   }
 }
 
 #socialMedia img{
   width: 4rem;
-
-  transition: 0.3s ease-in-out;
-
-  &:hover{
-    opacity: .8;
-  }
 }
