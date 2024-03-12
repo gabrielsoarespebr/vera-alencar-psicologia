@@ -6,6 +6,14 @@ h1{
   font-size: 3rem;
 }
 
+.navbar-toggler{
+  background-color: #2b7570;
+
+  & *{
+    filter: brightness(10);
+  }
+}
+
 a{
   text-decoration: none;
   color: inherit;

@@ -1,7 +1,7 @@
-<section [style.backgroundColor]="colorBg" class="p-5">
+<section [style.backgroundColor]="colorBg" class="p-3 p-md-5">
   <p class="text-center text-white my-5 display-5">Leia esse livro para...</p>
-  <ul class="d-flex justify-content-between gap-5 list-unstyled">
-    <li *ngFor="let book of bookList;index as i" class="text-center" (mouseenter)="mouseEnter(i)" (mouseleave)="mouseLeave()" [ngClass]="book.class">
+  <ul class="d-md-flex justify-content-between gap-5 list-unstyled">
+    <li *ngFor="let book of bookList;index as i" class="text-center mb-5 mb-md-0" (mouseenter)="mouseEnter(i)" (mouseleave)="mouseLeave()" [ngClass]="book.class">
       <p class="text-white fw-bold">{{ book.goal.toUpperCase() }}</p>
       <figure>
         <img src="./assets/images/{{ book.image }}" alt="{{ book.title }}" />
