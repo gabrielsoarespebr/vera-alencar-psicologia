@@ -11,6 +11,12 @@ img {
   border-radius: 2rem;
 }
 
+@media (max-width: 768px){
+  img{
+    width: 70vw;
+  }
+}
+
 a{
   transition: 0.3s ease-in-out;
 
