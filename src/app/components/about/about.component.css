@@ -5,3 +5,15 @@ img {
 
   border-radius: 2rem;
 }
+
+@media (max-width: 768px){
+  img{
+    width: 70vw;
+  }
+}
+
+@media (min-width: 1400px){
+  img{
+    width: 25vw;
+  }
+}
