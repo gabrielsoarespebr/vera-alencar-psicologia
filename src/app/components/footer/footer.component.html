@@ -1,13 +1,13 @@
 <footer [style.backgroundColor]="colorBg" class="p-3 p-md-5">
   <div class="d-flex justify-content-between">
-    <div>
+    <div class="col-5">
       <p class="fw-bold">Horário de atendimento</p>
       <p>Segunda à sexta, das 09:00 às 18:00</p>
     </div>
-    <div class="col-4">
+    <div class="col-5 col-md-4">
       <p class="fw-bold">Vera Alencar</p>
       <p>Psicóloga - CRP 99/99999</p>
-      <ul class="list-unstyled d-flex justify-content-around">
+      <ul class="list-unstyled d-flex justify-content-around pe-5 pe-md-0">
         <li *ngFor="let socialMedia of socialMediaList">
           <a href="about-the-author">
             <img class="socialMedia" [src]="socialMedia.imgUrl" [alt]="socialMedia.title" [attr.endOfPage]="endOfPage">

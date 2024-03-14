@@ -48,3 +48,14 @@
 
   filter: none;
 }
+
+@media (max-width: 768px){
+  .socialMedia, .socialMedia[alt="WhatsApp"][endofpage=true] {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .socialMedia[alt="WhatsApp"][endofpage=true] {
+    bottom: 12vh;
+  }
+}
