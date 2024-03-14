@@ -1,23 +1,38 @@
-li{
+li {
   transition: 0.5s ease-in-out;
 }
 
-.highlighted{
+.highlighted {
   transform: scale(1.2);
 }
 
-.backgrounded{
+.backgrounded {
   transform: scale(0.8);
 }
 
-img{
+img {
   width: 15vw;
 }
 
-a{
+a {
   transition: 0.3s ease-in-out;
 
-  &:hover{
+  &:hover {
     opacity: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 60vw;
+  }
+
+  a {
+    width: 60vw;
+    margin: auto;
+
+    & p {
+      line-height: 1.5rem;
+    }
   }
 }
