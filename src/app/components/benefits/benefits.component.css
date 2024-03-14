@@ -8,6 +8,13 @@ img {
   border-radius: 2rem;
 }
 
+@media (max-width: 768px){
+  img{
+    width: 80vw;
+    margin: auto;
+  }
+}
+
 blockquote{
   font-family: "Grape Nuts", cursive;
   & p{

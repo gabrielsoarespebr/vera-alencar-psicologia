@@ -1,8 +1,8 @@
-<section [style.backgroundColor]="colorBg" class="p-3 p-md-5">
+<section [style.backgroundColor]="colorBg" class="px-3 py-5 p-md-5">
   <p class="text-center text-white my-5 display-5">
     Quais os benefícios da terapia online?
   </p>
-  <div class="d-flex justify-content-between gap-5">
+  <div class="d-flex flex-column-reverse flex-md-row justify-content-between gap-5">
     <div class="d-flex flex-column justify-content-around">
       <blockquote [style.color]="colorContent">
         <p class="text-reset">
@@ -33,7 +33,7 @@
           <span class="text-reset fw-bold">conforto</span> da sua casa.
         </p>
       </div>
-      <div class="text-center">
+      <div class="text-center mt-2">
         <a
           [ngStyle]="{ 'background-color': colorContent, color: colorBg }"
           class="text-decoration-none btn fs-4"
