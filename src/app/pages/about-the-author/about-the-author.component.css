@@ -1,11 +1,11 @@
 section {
   width: 100%;
-  height: max-content;
+  height: 100%;
   background-color: #d0f0ef;
 }
 
-#logo{
-  width: 18%;
+#logo {
+  width: 15%;
 }
 
 h2 {
@@ -13,10 +13,40 @@ h2 {
   line-height: 2.5rem;
 }
 
-a{
+@media (max-width: 1400px) {
+  #logo {
+    width: 20%;
+  }
+}
+
+@media (max-width: 992px) {
+  h2 {
+    font-size: 2.1rem;
+    line-height: 2.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #logo {
+    width: 25%;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #logo {
+    width: 30%;
+  }
+}
+
+a {
   transition: 0.3s ease-in-out;
 
-  &:hover{
+  &:hover {
     opacity: 80%;
   }
 }
@@ -29,6 +59,6 @@ a[href="home"] {
   }
 }
 
-#socialMedia img{
+#socialMedia img {
   width: 4rem;
 }
