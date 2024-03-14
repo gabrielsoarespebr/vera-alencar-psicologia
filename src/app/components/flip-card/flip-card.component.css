@@ -57,7 +57,7 @@
 }
 
 @media (max-width:576px){
-  .flip-card {
+  .flip-card, .cardImg {
     width: 38vw;
     height: 38vw;
   }
