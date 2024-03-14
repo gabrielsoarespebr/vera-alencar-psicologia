@@ -17,6 +17,12 @@ img {
   }
 }
 
+@media (min-width: 1400px){
+  img{
+    width: 30vw;
+  }
+}
+
 a{
   transition: 0.3s ease-in-out;
 
