@@ -1,27 +1,73 @@
-# VeraAlencarPsicologia
+# Vera Alencar Psicologia
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+![Vera Alencar Psicologia Mockup](https://i.ibb.co/gvFpcmH/Vera-Alencar-Psicologia-Mockup.png)
+Site de psicologia.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Sumário
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Links](#links)
+- [Execução local](#execução-local)
+- [Tecnologias](#tecnologias)
+- [Sobre o autor](#sobre-o-autor)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Links
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [Site](https://veraalencar.vercel.app)
+- [GitHub](https://github.com/gabrielsoarespebr/vera-alencar-psicologia)
 
-## Running end-to-end tests
+[Voltar ao sumário](#sumário)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Execução local
+
+Primeiramente, garanta que o Angular e o npm estão instalados no seu computador.
+
+Em seguida, clone o repositório:
+
+```bash
+git clone https://github.com/gabrielsoarespebr/vera-alencar-psicologia.git
+```
+
+Abra o terminal e instale as dependências:
+
+```bash
+npm i
+```
+
+Agora, execute o script:
+
+```bash
+ng serve -o
+```
+
+[Voltar ao sumário](#sumário)
+
+
+
+## Tecnologias
+
+- Framework: **Angular**
+- Linguagem de programação: **TypeScript**
+- Linguagem de marcação: **HTML**
+- Linguagem de estilização: **CSS**
+- Recursos adicionais:
+  - **Material Icons**: Importação de ícones do Material Design
+  - **Google Fonts**: Importação de fontes do Google
+- Controle de versão: **Git**
+
+[Voltar ao sumário](#sumário)
+
+
+
+## Sobre o autor
+
+- [LinkedIn](https://www.linkedin.com/in/gabrielsoarespebr/)
+- [GitHub](https://github.com/gabrielsoarespebr)
+- [Portfolio](https://gabrielsoares.vercel.app)
+
+[Voltar ao sumário](#sumário)
