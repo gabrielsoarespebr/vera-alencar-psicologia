@@ -1,7 +1,8 @@
 # Vera Alencar Psicologia
 
-![Vera Alencar Psicologia Mockup](https://i.ibb.co/gvFpcmH/Vera-Alencar-Psicologia-Mockup.png)
-Site de psicologia.
+![Vera Alencar Psicologia Mockup](https://i.postimg.cc/fRK3hrFF/Vera-Alencar-Psicologia-Mockup.png)
+
+Site de psicologia com cores e animações que transmitem paz e conforto. Single Page Application (SPA).
 
 
 
@@ -68,6 +69,6 @@ ng serve -o
 
 - [LinkedIn](https://www.linkedin.com/in/gabrielsoarespebr/)
 - [GitHub](https://github.com/gabrielsoarespebr)
-- [Portfolio](https://gabrielsoares.vercel.app)
+- [Portfólio](https://gabrielsoares.vercel.app)
 
 [Voltar ao sumário](#sumário)
